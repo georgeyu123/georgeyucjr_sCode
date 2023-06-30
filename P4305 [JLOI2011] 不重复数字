@@ -11,7 +11,7 @@ signed main() {
   cin >> T;
   while (T--) { 
     scanf ("%d", &n);
-    for (int i = 1, ; i <= n; ++i) 
+    for (int i = 1; i <= n; ++i) 
       scanf ("%d", &a[i]), ++hash[a[i]];
     for (int i = 1; i <= n; ++i) 
       if (hash[a[i]]) 
